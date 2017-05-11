@@ -9,7 +9,6 @@ import com.alibaba.dubbo.common.serialize.support.SerializationOptimizer;
 public class SerializationOptimizerImpl implements SerializationOptimizer {
 
 	@SuppressWarnings("rawtypes")
-	@Override
 	public Collection<Class> getSerializableClasses() {
 		
 		List<Class> classes = new LinkedList<Class>();
